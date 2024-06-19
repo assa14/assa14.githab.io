@@ -1,0 +1,19 @@
+.cat {
+    width: 200px;
+  /*  height: 400px; */
+}
+.btn {
+  width: 200px;
+  height: 100px;
+  background-color:  chocolate;
+  border-radius: 20px;
+  color: navajowhite;
+  display: block;
+  margin: 40px 40px 40px 300px;
+}
+.btn:hover {
+  background-color:saddlebrown;
+}
+.btn:hover ~ .cat {
+  display: none;
+}
